@@ -1,0 +1,20 @@
+{
+  "name" : "bacbos/advent-of-code-2022",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "symfony/console": "^6.2",
+    "symfony/yaml": "^6.2",
+    "symfony/config": "^6.2",
+    "symfony/dependency-injection": "^6.2",
+    "symfony/http-kernel": "^6.2",
+    "symfony/finder": "^6.2"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
