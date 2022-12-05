@@ -43,7 +43,7 @@ class Day04 extends Command
             }
         }
         $output->writeln(sprintf('Solution for puzzle 04-1: <info>%s</info>', $count));
-        $output->writeln(sprintf('Solution for puzzle 04-1: <info>%s</info>', $countSecondPuzzle));
+        $output->writeln(sprintf('Solution for puzzle 04-2: <info>%s</info>', $countSecondPuzzle));
 
         return 0;
     }
